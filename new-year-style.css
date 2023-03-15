@@ -13,14 +13,14 @@ header {
     flex-direction: column;
     align-items: right;
     text-align: right;
-    padding: 216px 230px 360px 1000px;
-    border: solid black;
+    padding: 280px 230px 360px 1000px;
+    /* border: solid black; */
 }
 
 .bnr-title {
     font-weight: 700;
     font-size: 65px;
-    border: solid black;
+    /* border: solid black; */
 }
 
 .bnr-description {
@@ -28,7 +28,7 @@ header {
     font-size: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: solid black;
+    /* border: solid black; */
 }
 
 .bnr-btn {
@@ -37,7 +37,18 @@ header {
     background-color: #F15B22;
     border: none;
     border-radius: 5px;
-    width: 160px;
-    height: 64px;
     font-weight: 600;
+    padding: 21px 24px;
+    margin-left: auto;
+}
+
+.bnr-btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8f82db;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 21px 24px;
+    margin-left: auto;
 }
