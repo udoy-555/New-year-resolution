@@ -60,6 +60,8 @@ header {
     justify-content: center;
     align-items: center;
     gap: 90px;
+    padding: 6em 0;
+    background-color: rgb(224, 247, 255);
     /* border: solid blueviolet; */
 }
 
@@ -70,7 +72,7 @@ header {
 .sec1-title {
     font-weight: 700;
     font-size: 50px;
-    color: rgb(14, 122, 122);
+    color: rgb(40, 28, 209);
     /* border: solid blue; */
 }
 
@@ -105,4 +107,33 @@ ul li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    /* border: solid black; */
+}
+
+.sec2-plans{
+    display: flex;
+    gap: 5em;
+}
+
+.sec-title{
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 1.7em;
+}
+
+.sec2-card{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sec2-card p{
+    font-weight: 400;
+    font-size: 25px;
+    color: #737272;
+}
+
+.plan-ico{
+    width: 80px;
 }
