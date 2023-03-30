@@ -192,15 +192,75 @@ ul li{
 .foot{
     display: flex;
     background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 0;
+    gap: 20em;
+
 }
  .contact{
     color: white;
+    width: 650px;
+ }
+
+ .contact h2{
+    font-size: 45px;
+ }
+
+ .contact p {
+    padding: 0.3em 0;
  }
 
 .ftr-ico-list{
     display: flex;
+    gap: 1em;
 }
 
 .ftr-ico-list li{
     list-style: none;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.sub-title{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.email-box{
+    width: 325px;
+    height: 64px;
+    align-items: center;
+    text-align: center;
+    margin: 1.5em 0;
+    border-radius: 5px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+.sub-btn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    color: #F15B22;
+    font-weight: 700;
+}
+
+.sub-btn:hover{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #F15B22;
+    color: white;
+    font-weight: 700;
 }
